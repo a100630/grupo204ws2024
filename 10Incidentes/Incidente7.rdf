@@ -1,0 +1,41 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:grupo204="http://grupo204ws2024.org/#">
+
+    <!-- Descrição do Incidente 7 -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#incident7">
+        <skos:prefLabel xml:lang="en">Breach Saga: Bulgarian Tax Agency Fined</skos:prefLabel>
+        <skos:altLabel xml:lang="pt">Comprometimento de Aplicação</skos:altLabel>
+        <grupo204:incident_class rdf:resource="http://grupo204ws2024.org/#class5" />
+        <grupo204:results_event rdf:resource="http://grupo204ws2024.org/#event7" />
+    </rdf:Description>
+
+    <!-- Definição da Hierarquia do Incidente -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#class5">
+        <grupo204:hasSubClass rdf:resource="http://grupo204ws2024.org/#typeIncident15" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#typeIncident15">
+        <grupo204:hasSubClass rdf:resource="http://grupo204ws2024.org/#descriptionIncident15" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#descriptionIncident15">
+    </rdf:Description>
+
+    <!-- Definição do Evento -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#event7">
+        <skos:prefLabel xml:lang="pt">Acesso indevido a sistema </skos:prefLabel>
+        <grupo204:event_type rdf:resource="http://grupo204ws2024.org/#typeEvent39" />
+    </rdf:Description>
+
+    <!-- Definição da Hierarquia do Evento -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#typeEvent39">
+        <grupo204:hasSubClass rdf:resource="http://grupo204ws2024.org/#descriptionEvent39" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#descriptionEvent39">
+    </rdf:Description>
+</rdf:RDF>

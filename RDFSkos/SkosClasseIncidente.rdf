@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2class0/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2class4/02/skos/core#"
+        xmlns:dcterms="http://purl.org/dc/terms/" 
+>
+
+<skos:ConceptScheme rdf:about="http://grupo204ws2024.org/#incident_class">
+
+    <dcterms:title>Classe Incidente</dcterms:title>
+    <dcterms:date>2024</dcterms:date>
+
+    <skos:hasTopConcept rdf:resource="#class1" />
+    <skos:hasTopConcept rdf:resource="#class2" />
+    <skos:hasTopConcept rdf:resource="#class3" />
+    <skos:hasTopConcept rdf:resource="#class4" />
+    <skos:hasTopConcept rdf:resource="#class5" />
+    <skos:hasTopConcept rdf:resource="#class6" />
+    <skos:hasTopConcept rdf:resource="#class7" />
+    <skos:hasTopConcept rdf:resource="#class8" />
+    <skos:hasTopConcept rdf:resource="#class9" />
+    <skos:hasTopConcept rdf:resource="#class10" />
+    <skos:hasTopConcept rdf:resource="#class11" />
+
+</skos:ConceptScheme>
+
+
+<skos:Concept rdf:about="#class1">
+
+        <skos:prefLabel xml:lang="pt">Conteúdo Abusivo</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Abusive Content</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class2">
+
+        <skos:prefLabel xml:lang="pt">Código Malicioso</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Malicious Code</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+
+<skos:Concept rdf:about="#class3">
+
+        <skos:prefLabel xml:lang="pt">Recolha de Informação</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Information Gathering</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class4">
+
+        <skos:prefLabel xml:lang="pt">Tentativa de Intrusão</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Intrusion Attempts</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class5">
+
+        <skos:prefLabel xml:lang="pt">Intrusão</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Intrusion</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class6" >
+
+        <skos:prefLabel xml:lang="pt">Disponibilidade</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Availability</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class7">
+
+        <skos:prefLabel xml:lang="pt">Segurança da Informação</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Segurança da Informação</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class8">
+
+        <skos:prefLabel xml:lang="pt">Fraude</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Fraud</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class9">
+
+        <skos:prefLabel xml:lang="pt">Vulnerabilidade</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Vulnerable</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class10">
+
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#class11">
+
+        <skos:prefLabel xml:lang="pt">Teste</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Test</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+        <skos:topConceptOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+
+</skos:Concept>
+
+</rdf:RDF>

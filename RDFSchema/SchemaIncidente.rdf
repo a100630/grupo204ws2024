@@ -1,0 +1,71 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:grupo204="http://grupo204ws2024.org/#">
+
+    <!-- Declaração da classe incidentShape -->
+    <rdfs:Class rdf:about="http://grupo204ws2024.org/#incidentShape">
+        <rdfs:label xml:lang="en">Incident Shape</rdfs:label>
+        <rdfs:label xml:lang="pt">Forma de Incidente</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            A class representing the shape of an incident, including its attributes and relationships.
+        </rdfs:comment>
+    </rdfs:Class>
+
+    <!-- Propriedade: Classe Incidente -->
+    <rdfs:Property rdf:about="http://grupo204ws2024.org/#incident_class">
+        <rdfs:label xml:lang="en">Incident Class</rdfs:label>
+        <rdfs:label xml:lang="pt">Classe do Incidente</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            Class of the incident, serving as a category for other attributes.
+        </rdfs:comment>
+        <rdfs:domain rdf:resource="http://grupo204ws2024.org/#incidentShape" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+    </rdfs:Property>
+
+    <!-- Propriedade: Tipo (subpropriedade de Classe Incidente) -->
+    <rdfs:Property rdf:about="http://grupo204ws2024.org/#incident_type">
+        <rdfs:label xml:lang="en">Incident Type</rdfs:label>
+        <rdfs:label xml:lang="pt">Tipo de Incidente</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            Type of the incident, classified under the incident class.
+        </rdfs:comment>
+        <rdfs:domain rdf:resource="http://grupo204ws2024.org/#incidentShape" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <rdfs:subPropertyOf rdf:resource="http://grupo204ws2024.org/#incident_class" />
+    </rdfs:Property>
+
+    <!-- Propriedade: Descrição (subpropriedade de Tipo) -->
+    <rdfs:Property rdf:about="http://grupo204ws2024.org/#description">
+        <rdfs:label xml:lang="en">Incident Description</rdfs:label>
+        <rdfs:label xml:lang="pt">Descrição do Incidente</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            Description of the incident, further detailing the incident.
+        </rdfs:comment>
+        <rdfs:domain rdf:resource="http://grupo204ws2024.org/#incidentShape" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+        <rdfs:subPropertyOf rdf:resource="http://grupo204ws2024.org/#incident_type" />
+    </rdfs:Property>
+
+    <!-- Propriedade: ID Incidente -->
+    <rdfs:Property rdf:about="http://grupo204ws2024.org/#incident_id">
+        <rdfs:label xml:lang="en">Incident ID</rdfs:label>
+        <rdfs:label xml:lang="pt">ID do Incidente</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            Identifier of the incident.
+        </rdfs:comment>
+        <rdfs:domain rdf:resource="http://grupo204ws2024.org/#incidentShape" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI" />
+    </rdfs:Property>
+
+    <!-- Propriedade: Resulta -->
+    <rdfs:Property rdf:about="http://grupo204ws2024.org/#results_event">
+        <rdfs:label xml:lang="en">Results in Event</rdfs:label>
+        <rdfs:label xml:lang="pt">Resulta em Evento</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            Relationship between the incident and event.
+        </rdfs:comment>
+        <rdfs:domain rdf:resource="http://grupo204ws2024.org/#incidentShape" />
+        <rdfs:range rdf:resource="http://grupo204ws2024.org/#eventShape" />
+    </rdfs:Property>
+
+</rdf:RDF>

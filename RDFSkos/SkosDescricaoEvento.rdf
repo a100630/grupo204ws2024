@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dcterms="http://purl.org/dc/terms/">
+
+  <skos:ConceptScheme rdf:about="http://grupo204ws2024.org/#event_description">
+    <dcterms:title>Tipos de Evento</dcterms:title>
+    <dcterms:date>2024</dcterms:date>
+    
+    <skos:hasTopConcept rdf:resource="#descriptionEvent1" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent2" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent3" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent4" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent5" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent6" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent7" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent8" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent9" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent10" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent11" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent12" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent13" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent14" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent15" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent16" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent17" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent18" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent19" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent20" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent21" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent22" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent23" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent24" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent25" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent26" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent27" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent28" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent29" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent30" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent31" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent32" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent33" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent34" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent35" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent36" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent37" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent38" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent39" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent40" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent41" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent42" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent43" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent44" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent45" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent46" />
+    <skos:hasTopConcept rdf:resource="#descriptionEvent47" />
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="#descriptionEvent1">
+    <skos:prefLabel xml:lang="pt">Detetado num sistema a presença de qualquer um dos tipos de malware.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malware detected in a system of any kind.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent1" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent2">
+    <skos:prefLabel xml:lang="pt">Malware anexo a mensagem ou presença de link para URL malicioso em mensagem de correio eletrónico.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Malware attached to a message or presence of a link to a malicious URL in an email message.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent2" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent3">
+    <skos:prefLabel xml:lang="pt">URI codificado em QRCode, para download de malware.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">URI encoded in a QRCode, for malware download.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent3" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent4">
+    <skos:prefLabel xml:lang="pt">Página web que se encontra a disseminar um dos vários tipos de malware.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Web page disseminating one of various types of malware.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent4" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent5">
+    <skos:prefLabel xml:lang="pt">Sistema que é usado como ponto de controlo de uma botnet. Também se inclui neste campo os sistemas que servem como ponto de recolha de dados furtados através de botnets.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">System used as a command and control point for a botnet. This also includes systems that serve as a collection point for data stolen via botnets.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent5" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent6">
+    <skos:prefLabel xml:lang="pt">Sistema comprometido com um worm que tenta comprometer outros sistemas.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">System compromised by a worm attempting to compromise other systems.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent6" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent7">
+    <skos:prefLabel xml:lang="pt">Sistema que efetua tentativas de acesso a um porto geralmente associado a um determinado tipo de malware.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">System attempting access to a port generally associated with a specific type of malware.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent7" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent8">
+    <skos:prefLabel xml:lang="pt">Sistema que efetua tentativas de acesso a um endereço IP ou URL geralmente associado a um determinado tipo de malware como por exemplo, C2 ou página para distribuição de componentes associados a uma determinada botnet.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">System attempting to access an IP address or URL generally associated with a specific type of malware, such as C2 or page for distributing components associated with a particular botnet.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent8" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent9">
+    <skos:prefLabel xml:lang="pt">Envio massivo de pedidos (pacotes de rede, e-mails, etc.), a partir de uma única fonte, a um determinado serviço com o objetivo de afetar o seu funcionamento.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Massive request sending (network packets, emails, etc.), from a single source, to a particular service with the aim of affecting its operation.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent9" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent10">
+    <skos:prefLabel xml:lang="pt">Utilização, a partir de uma única fonte, de software especialmente concebido para afetar o funcionamento de um determinado serviço através da exploração de uma vulnerabilidade no mesmo.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use, from a single source, of software specifically designed to affect the operation of a particular service by exploiting a vulnerability within it.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent10" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent11">
+    <skos:prefLabel xml:lang="pt">Envio massivo de pedidos (pacotes de rede, e-mails, etc.), a partir de várias fontes, a um determinado serviço com o objetivo de afetar o seu funcionamento.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Massive request sending (network packets, emails, etc.), from multiple sources, to a particular service with the aim of affecting its operation.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent11" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent12">
+    <skos:prefLabel xml:lang="pt">Utilização, a partir de várias fontes, de software especialmente concebido para afetar o funcionamento de um determinado serviço através da exploração de uma vulnerabilidade no mesmo.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use, from multiple sources, of software specifically designed to affect the operation of a particular service by exploiting a vulnerability within it.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent12" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent13">
+    <skos:prefLabel xml:lang="pt">Atividades lógicas e físicas que não tenham como objetivo premeditado danificar a informação ou evitar a sua transmissão entre sistemas, mas que tenham essa consequência.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Logical and physical activities not intended to damage the information or prevent its transmission between systems, but which have that consequence.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent13" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent14">
+    <skos:prefLabel xml:lang="pt">Atividades lógicas e físicas que tenham como objetivo premeditado de corromper a informação ou evitar a sua transmissão entre sistemas.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Logical and physical activities deliberately intended to corrupt the information or prevent its transmission between systems.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent14" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent15">
+    <skos:prefLabel xml:lang="pt">Acontecimentos que tenham como consequência não prevista a corrupção da informação ou impossibilidade de transmissão entre sistemas.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Events that have the unintended consequence of corrupting information or preventing transmission between systems.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent15" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent16">
+    <skos:prefLabel xml:lang="pt">Scan a um único sistema à procura de portos abertos ou serviços a responderem nesses portos.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Scan of a single system searching for open ports or services responding on those ports.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent16" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent17">
+    <skos:prefLabel xml:lang="pt">Scan a uma rede de sistemas, com o objetivo de identificar sistemas que estejam ativos nessa mesma rede.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Scan of a network of systems, aiming to identify systems that are active within the same network.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent17" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent18">
+    <skos:prefLabel xml:lang="pt">Transferência não autorizada de uma determinada zona de DNS.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized transfer of a specific DNS zone.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent18" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent19">
+    <skos:prefLabel xml:lang="pt">Interceção, lógica ou física, de comunicações.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Logical or physical interception of communications.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent19" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent20">
+    <skos:prefLabel xml:lang="pt">Envio massivo de e-mails com o objetivo de recolher dados para efeitos de phishing das vítimas.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Massive email sending with the goal of collecting data for phishing purposes from victims.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent20" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent21">
+    <skos:prefLabel xml:lang="pt">Alojamento de websites para efeitos de phishing.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Hosting websites for phishing purposes.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent21" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent22">
+    <skos:prefLabel xml:lang="pt">Recolha de dados resultantes de ataques de phishing através de páginas web, contas de correio eletrónico, etc.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Collection of data resulting from phishing attacks through web pages, email accounts, etc.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent22" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent23">
+    <skos:prefLabel xml:lang="pt">Utilização, sem sucesso, de uma ferramenta que explora uma determinada vulnerabilidade no sistema.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use, without success, of a tool that exploits a specific vulnerability in the system.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent23" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent24">
+    <skos:prefLabel xml:lang="pt">Tentativa, sem sucesso, de manipulação ou leitura de dados em base de dados, através da técnica de SQL Injection.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unsuccessful attempt to manipulate or read data in a database through SQL Injection technique.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent24" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent25">
+    <skos:prefLabel xml:lang="pt">Tentativa, sem sucesso, de ataques recorrendo a técnicas de cross-site scripting.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unsuccessful attempt of attacks using cross-site scripting techniques.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent25" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent26">
+    <skos:prefLabel xml:lang="pt">Tentativa, sem sucesso, de inclusão de ficheiros no sistema alvo através de técnicas de file inclusion.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unsuccessful attempt to include files into the target system through file inclusion techniques.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent26" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent27">
+    <skos:prefLabel xml:lang="pt">Tentativa de login, sem sucesso, em sistema através da utilização sequencial e consecutiva de credenciais de acesso.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unsuccessful login attempt on the system through sequential and consecutive use of access credentials.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent27" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent28">
+    <skos:prefLabel xml:lang="pt">Tentativa de descoberta de credenciais de acesso através da quebra dos mecanismos criptográficos que as protegem.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Attempt to discover access credentials by breaking the cryptographic mechanisms protecting them.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent28" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent29">
+    <skos:prefLabel xml:lang="pt">Tentativa de login, sem sucesso, em sistema através da utilização de credenciais de acesso pré-carregadas em dicionário.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unsuccessful login attempt on the system through the use of pre-loaded credentials from a dictionary.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent29" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent30">
+    <skos:prefLabel xml:lang="pt">Utilização, com sucesso, de uma ferramenta que explora uma determinada vulnerabilidade no sistema.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Successful use of a tool that exploits a specific vulnerability in the system.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent30" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent31">
+    <skos:prefLabel xml:lang="pt">Manipulação ou leitura de dados em base de dados, através da técnica de SQL Injection.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Manipulation or reading of data in a database through SQL Injection technique.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent31" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent32">
+    <skos:prefLabel xml:lang="pt">Ataques recorrendo a técnicas de cross-site scripting.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Attacks using cross-site scripting techniques.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent32" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent33">
+    <skos:prefLabel xml:lang="pt">Inclusão de ficheiros no sistema alvo através de técnicas de file inclusion.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Inclusion of files into the target system through file inclusion techniques.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent33" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent34">
+    <skos:prefLabel xml:lang="pt">Acesso indevido a sistema ou componente contornando um sistema de controlo de acesso existente.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized access to a system or component by bypassing an existing access control system.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent34" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent35">
+    <skos:prefLabel xml:lang="pt">Acesso indevido a sistema ou componente através da utilização de credenciais de acesso furtadas.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized access to a system or component through the use of stolen access credentials.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent35" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent36">
+    <skos:prefLabel xml:lang="pt">Acesso indevido a sistema ou componente através da utilização de credenciais de acesso privilegiado furtadas.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized access to a system or component through the use of stolen privileged access credentials.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent36" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent37">
+    <skos:prefLabel xml:lang="pt">Acesso não autorizado a um sistema ou componente.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized access to a system or component.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent37" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent38">
+    <skos:prefLabel xml:lang="pt">Acesso não autorizado a um conjunto de informações.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized access to a set of information.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent38" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent39">
+    <skos:prefLabel xml:lang="pt">Acesso e partilha não autorizados de um determinado conjunto de informações.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized access and sharing of a specific set of information.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent39" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent40">
+    <skos:prefLabel xml:lang="pt">Alteração indevida de um determinado conjunto de informações.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized modification of a specific set of information.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent40" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent41">
+    <skos:prefLabel xml:lang="pt">Eliminação indevida de um determinado conjunto de informações.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized deletion of a specific set of information.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent41" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent42">
+    <skos:prefLabel xml:lang="pt">Utilização de recursos da instituição para fins diferentes daqueles para que os mesmos foram afetos.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Use of institutional resources for purposes other than their intended use.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent42" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent43">
+    <skos:prefLabel xml:lang="pt">Utilização de nome da instituição sem autorização da mesma.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Unauthorized use of the institution's name.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent43" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent44">
+    <skos:prefLabel xml:lang="pt">Envio de número anormalmente elevado de mensagens de correio eletrónico.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sending an unusually large number of email messages.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent44" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent45">
+    <skos:prefLabel xml:lang="pt">Envio de mensagem de correio eletrónico não solicitada ou não pretendida pelo destinatário.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Sending unsolicited or unwanted email messages to the recipient.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent45" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent46">
+    <skos:prefLabel xml:lang="pt">Distribuição ou partilha de conteúdos protegidos por direitos de autor e direitos conexos.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Distribution or sharing of content protected by copyright and related rights.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent46" />
+</skos:Concept>
+
+<skos:Concept rdf:about="#descriptionEvent47">
+    <skos:prefLabel xml:lang="pt">Distribuição ou partilha de conteúdos ilegais como pornografia de menores, glorificação da violência, e outros conteúdos proibidos por lei.</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Distribution or sharing of illegal content such as child pornography, glorification of violence, and other content prohibited by law.</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://grupo204ws2024.org/#event_description" />
+    <skos:broader rdf:resource="http://grupo204ws2024.org/#typeEvent47" />
+</skos:Concept>
+
+</rdf:RDF> 

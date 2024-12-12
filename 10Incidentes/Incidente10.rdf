@@ -1,0 +1,41 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:grupo204="http://grupo204ws2024.org/#">
+
+    <!-- Descrição do Incidente 10 -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#incident10">
+        <skos:prefLabel xml:lang="en">Researchers find 540 million Facebook user records on exposed servers</skos:prefLabel>
+        <skos:altLabel xml:lang="pt">Revelação de Informação</skos:altLabel>
+        <grupo204:incident_class rdf:resource="http://grupo204ws2024.org/#class9" />
+        <grupo204:results_event rdf:resource="http://grupo204ws2024.org/#event10" />
+    </rdf:Description>
+
+    <!-- Definição da Hierarquia do Incidente -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#class9">
+        <grupo204:hasSubClass rdf:resource="http://grupo204ws2024.org/#typeIncident33" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#typeIncident33">
+        <grupo204:hasSubClass rdf:resource="http://grupo204ws2024.org/#descriptionIncident33" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#descriptionIncident33">
+    </rdf:Description>
+
+    <!-- Definição do Evento -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#event10">
+        <skos:prefLabel xml:lang="pt">Acesso indevido à informação</skos:prefLabel>
+        <grupo204:event_type rdf:resource="http://grupo204ws2024.org/#typeEvent40" />
+    </rdf:Description>
+
+    <!-- Definição da Hierarquia do Evento -->
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#typeEvent40">
+        <grupo204:hasSubClass rdf:resource="http://grupo204ws2024.org/#descriptionEvent40" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://grupo204ws2024.org/#descriptionEvent2">
+    </rdf:Description>
+</rdf:RDF>
